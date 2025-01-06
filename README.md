@@ -2,10 +2,6 @@
 
 This project is part of the **Udacity Programming for Data Science with Python Nanodegree**. The goal of this project is to explore and analyze bike share data for three major cities in the United States: Chicago, New York City, and Washington, D.C. The analysis involves computing various descriptive statistics on the dataset provided for these cities, such as travel times, popular stations, and user demographics.
 
-## Project Overview
-
-Bicycle-sharing systems have grown significantly in cities across the world. These systems allow users to rent bikes on a short-term basis for a price, providing an efficient and eco-friendly mode of transportation. This project uses data from bike share systems in Chicago, New York City, and Washington D.C. to uncover usage patterns and provide insights into how these systems are used.
-
 ## Data Description
 
 The dataset used for this project contains data for the first six months of 2017. The core columns in the dataset include:

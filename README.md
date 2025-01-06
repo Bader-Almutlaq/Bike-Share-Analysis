@@ -2,8 +2,7 @@
 
 The goal of this project is to explore and analyze bike share data for three major cities in the United States: Chicago, New York City, and Washington, D.C. The analysis involves computing various descriptive statistics on the dataset provided for these cities, such as travel times, popular stations, and user demographics.
 
-## Data Description
-
+## Datasets
 The dataset used for this project contains data for the first six months of 2017. The core columns in the dataset include:
 
 - **Start Time**: The start time of the trip.
@@ -16,6 +15,11 @@ The dataset used for this project contains data for the first six months of 2017
 The Chicago and New York City datasets also contain the following columns:
 - **Gender**: Gender of the user (only available for NYC and Chicago).
 - **Birth Year**: The birth year of the user (only available for NYC and Chicago).
+
+The data is provided by [**Motivate**](https://www.motivateco.com) and has been preprocessed by [**Udacity**](https://www.udacity.com). The original datasets can be found at:
+- Chicago: `https://divvybikes.com/system-data`
+- New York City: `https://citibikenyc.com/system-data`
+- Washington: `https://capitalbikeshare.com/system-data`
 
 ## Functionality
 

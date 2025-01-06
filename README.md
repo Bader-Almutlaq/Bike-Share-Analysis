@@ -17,9 +17,9 @@ The Chicago and New York City datasets also contain the following columns:
 - **Birth Year**: The birth year of the user (only available for NYC and Chicago).
 
 The data is provided by [**Motivate**](https://www.motivateco.com) and has been preprocessed by [**Udacity**](https://www.udacity.com). The original datasets can be found at:
-- Chicago: `https://divvybikes.com/system-data`
-- New York City: `https://citibikenyc.com/system-data`
-- Washington: `https://capitalbikeshare.com/system-data`
+- Chicago: [`https://divvybikes.com/system-data`](https://divvybikes.com/system-data)
+- New York City: [`https://citibikenyc.com/system-data`](https://citibikenyc.com/system-data)
+- Washington: [`https://capitalbikeshare.com/system-data`](https://capitalbikeshare.com/system-data)
 
 ## Functionality
 
@@ -45,3 +45,8 @@ This Python program provides the following functionalities:
    - Earliest, most recent, and most common birth year (only for Chicago and New York City)
 
 5. **Raw Data**: Optionally, the user can view raw data in chunks of 5 records formatted as a table.
+
+## Acknowledgments
+
+- **[Udacity](https://www.udacity.com/):** For providing the preprocessed datasets and the project skeleton file (`main.py`) as part of the *Programming for Data Science with Python Nanodegree*.
+- **[Motivate](https://www.motivateco.com/):** For supplying the raw bike-share data used in this analysis.

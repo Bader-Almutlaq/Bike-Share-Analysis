@@ -1,6 +1,6 @@
 # Bike Share Data Analysis
 
-This project is part of the **Udacity Programming for Data Science with Python Nanodegree**. The goal of this project is to explore and analyze bike share data for three major cities in the United States: Chicago, New York City, and Washington, D.C. The analysis involves computing various descriptive statistics on the dataset provided for these cities, such as travel times, popular stations, and user demographics.
+The goal of this project is to explore and analyze bike share data for three major cities in the United States: Chicago, New York City, and Washington, D.C. The analysis involves computing various descriptive statistics on the dataset provided for these cities, such as travel times, popular stations, and user demographics.
 
 ## Data Description
 
@@ -40,4 +40,4 @@ This Python program provides the following functionalities:
    - Counts of each gender (only for Chicago and New York City)
    - Earliest, most recent, and most common birth year (only for Chicago and New York City)
 
-5. **Raw Data**: Optionally, the user can view raw data in chunks of 5 records.
+5. **Raw Data**: Optionally, the user can view raw data in chunks of 5 records formatted as a table.

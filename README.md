@@ -46,6 +46,31 @@ This Python program provides the following functionalities:
 
 5. **Raw Data**: Optionally, the user can view raw data in chunks of 5 records formatted as a table.
 
+## Requirements
+- Pandas is the only required package.
+- 
+You can install it using `pip`:
+```bash
+pip install pandas
+```
+
+### 4. **Installation Instructions**:
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/Bader-Almutlaq/bike-share-analysis.git
+   ```
+2. Download the required dataset files from the provided links:
+   - Chicago: [Divvy Bikes Data](https://divvybikes.com/system-data)
+   - New York City: [CitiBike Data](https://citibikenyc.com/system-data)
+   - Washington D.C.: [Capital Bikeshare Data](https://capitalbikeshare.com/system-data)
+3. Preprocess the data to insure it contains the same features as specified in the dataset section.
+4. Place the downloaded files in the `data` folder.
+5. Run the analysis script:
+   ```bash
+   python main.py
+   ```
+
 ## Acknowledgments
 
 - **[Udacity](https://www.udacity.com/):** For providing the preprocessed datasets and the project skeleton file (`main.py`) as part of the *Programming for Data Science with Python Nanodegree*.

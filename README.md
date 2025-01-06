@@ -48,7 +48,7 @@ This Python program provides the following functionalities:
 
 ## Requirements
 - Pandas is the only required package.
-- 
+
 You can install it using `pip`:
 ```bash
 pip install pandas
@@ -64,6 +64,7 @@ pip install pandas
    - Chicago: [Divvy Bikes Data](https://divvybikes.com/system-data)
    - New York City: [CitiBike Data](https://citibikenyc.com/system-data)
    - Washington D.C.: [Capital Bikeshare Data](https://capitalbikeshare.com/system-data)
+
 3. Preprocess the data to insure it contains the same features as specified in the dataset section.
 4. Place the downloaded files in the `data` folder.
 5. Run the analysis script:

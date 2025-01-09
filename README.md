@@ -54,7 +54,7 @@ You can install it using `pip`:
 pip install pandas
 ```
 
-### 4. **Installation Instructions**:
+## **Installation Instructions**:
 
 1. Clone this repository to your local machine:
    ```bash

@@ -2,24 +2,15 @@
 
 The goal of this project is to explore and analyze bike share data for three major cities in the United States: Chicago, New York City, and Washington, D.C. The analysis involves computing various descriptive statistics on the dataset provided for these cities, such as travel times, popular stations, and user demographics.
 
-## Datasets
-The dataset used for this project contains data for the first six months of 2017. The core columns in the dataset include:
-
-- **Start Time**: The start time of the trip.
-- **End Time**: The end time of the trip.
-- **Trip Duration**: The duration of the trip in seconds.
-- **Start Station**: The station where the trip started.
-- **End Station**: The station where the trip ended.
-- **User Type**: Type of user (Subscriber or Customer).
-
-The Chicago and New York City datasets also contain the following columns:
-- **Gender**: Gender of the user (only available for NYC and Chicago).
-- **Birth Year**: The birth year of the user (only available for NYC and Chicago).
-
-The data is provided by [**Motivate**](https://www.motivateco.com) and has been preprocessed by [**Udacity**](https://www.udacity.com). The original datasets can be found at:
-- Chicago: [`https://divvybikes.com/system-data`](https://divvybikes.com/system-data)
-- New York City: [`https://citibikenyc.com/system-data`](https://citibikenyc.com/system-data)
-- Washington: [`https://capitalbikeshare.com/system-data`](https://capitalbikeshare.com/system-data)
+## Files Used
+```markdown
+Bike-Share-Analysis/
+│
+├── main.py
+├── chicago.csv
+├── new_york_city.csv
+└── washington.csv
+```
 
 ## Functionality
 
@@ -45,6 +36,25 @@ This Python program provides the following functionalities:
    - Earliest, most recent, and most common birth year (only for Chicago and New York City)
 
 5. **Raw Data**: Optionally, the user can view raw data in chunks of 5 records formatted as a table.
+
+## Datasets
+The dataset used for this project contains data for the first six months of 2017. The core columns in the dataset include:
+
+- **Start Time**: The start time of the trip.
+- **End Time**: The end time of the trip.
+- **Trip Duration**: The duration of the trip in seconds.
+- **Start Station**: The station where the trip started.
+- **End Station**: The station where the trip ended.
+- **User Type**: Type of user (Subscriber or Customer).
+
+The Chicago and New York City datasets also contain the following columns:
+- **Gender**: Gender of the user (only available for NYC and Chicago).
+- **Birth Year**: The birth year of the user (only available for NYC and Chicago).
+
+The data is provided by [**Motivate**](https://www.motivateco.com) and has been preprocessed by [**Udacity**](https://www.udacity.com). The original datasets can be found at:
+- Chicago: [`https://divvybikes.com/system-data`](https://divvybikes.com/system-data)
+- New York City: [`https://citibikenyc.com/system-data`](https://citibikenyc.com/system-data)
+- Washington: [`https://capitalbikeshare.com/system-data`](https://capitalbikeshare.com/system-data)
 
 ## Requirements
 - Pandas is the only required package.
